@@ -18,42 +18,43 @@ for(int i = 0; i < myProjects.length; i++) {
 
 **1. Expression Evaluator:**
 
-  ..*Purpose: Evaluates an expression that is inputted by the user.
+  * Purpose: Evaluates an expression that is inputted by the user.
            The user can also specify variables and their values.
 
-  ..*Input -> Expression of any length
-  ..*Output -> Value of expression
+  * Input -> Expression of any length
+  * Output -> Value of expression
   
-  ..*Just an example input: 75 * (A + 52 * 2) - 2 / (6 + 2 - B * (C * A * B) / 5))
+  * Just an example input: 75 * (A + 52 * 2) - 2 / (6 + 2 - B * (C * A * B) / 5))
   
   
 **2. Friends**
   
-  ..*Purpose: Create a Graph structure representing connections between "friends".
-           Shortest path to get from one person to another person in terms of number of connections.
-           Can find cliques or a group of friends seperated from all others by school.
-           Identifies "connector" people, which are people who can isolate some friends from everyone else if they are removed.
+  * Purpose: Create a Graph structure representing connections between "friends".
+             Shortest path to get from one person to another person in terms of number of connections.
+             Can find cliques or a group of friends seperated from all others by school.
+             Identifies "connector" people, which are people who can isolate some friends from everyone 
+             else if they are removed.
            
 
-  ..*Input -> Text file containing data formatted to create a graph
-  ..*Output -> Shortest path, cliques, or connectors in graph
+  * Input -> Text file containing data formatted to create a graph
+  * Output -> Shortest path, cliques, or connectors in graph
   
   
 **3. Little Search Engine**
 
-  ..*Purpose: Allows the user to identify which documents contain the most uses of two specified words.
+  * Purpose: Allows the user to identify which documents contain the most uses of two specified words.
            Utilizes a hashtable to keep track of word frequencies and the documents in which they are contained.
 
-  ..*Input -> Two words
-  ..*Output -> List of documents where the specified words appear, sorted by frequency of occurance
+  * Input -> Two words
+  * Output -> List of documents where the specified words appear, sorted by frequency of occurance
   
   
 **4. Trie**
   
-  ..*Purpose: Use a tree like structure to store prefixes of words, and generate an "autocomplete" list when given a prefix
+  * Purpose: Use a tree like structure to store prefixes of words, and generate an "autocomplete" list when given a prefix
   
-  ..*Input -> A word prefix
-  ..*Output -> List of all words in the tree that start with that prefix
+  * Input -> A word prefix
+  * Output -> List of all words in the tree that start with that prefix
   
   
   
