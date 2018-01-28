@@ -8,8 +8,8 @@ Projects[] myProjects = {new Project("Expression Evaluator"),
                         new Project("Little Search Engine"),
                         new Project("Trie")};
             
-for(int i = 0; i < myProjects.length; i++) {
-    System.out.println(myProjects[i].toString());
+for(Project p : myProjects) {
+    System.out.println(p.toString());
 }
 ```
 
@@ -45,7 +45,7 @@ for(int i = 0; i < myProjects.length; i++) {
   * Purpose: Allows the user to identify which documents contain the most uses of two specified words.
            Utilizes a hashtable to keep track of word frequencies and the documents in which they are contained.
 
-  * Input -> Two words
+  * Input -> Two words, and text files of documents
   * Output -> List of documents where the specified words appear, sorted by frequency of occurance
   
   
@@ -53,7 +53,7 @@ for(int i = 0; i < myProjects.length; i++) {
   
   * Purpose: Use a tree like structure to store prefixes of words, and generate an "autocomplete" list when given a prefix
   
-  * Input -> A word prefix
+  * Input -> A word prefix and a dictionary of words to create trie from
   * Output -> List of all words in the tree that start with that prefix
   
   
