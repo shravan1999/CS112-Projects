@@ -3,7 +3,7 @@ Data Structures (CS112) projects completed in first semester at Rutgers.
 Written in Java.
 
 ```java
-Projects[] myProjects = {new Project("Expression Evaluator"),
+Project[] myProjects = {new Project("Expression Evaluator"),
                         new Project("Friends"),
                         new Project("Little Search Engine"),
                         new Project("Trie")};
